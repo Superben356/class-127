@@ -3,7 +3,7 @@ song="";
 function setup()
 {
     canvas=createCanvas(600,500);
-    canvas.position(410,250);
+    canvas.center()
 
     video=createCapture(VIDEO);
     video.hide();
@@ -16,7 +16,7 @@ function draw()
 
 function preload()
 {
-    song=loadSound("music.mp3");
+    //song=loadSound("music.mp3");
 }
 
 function play()
